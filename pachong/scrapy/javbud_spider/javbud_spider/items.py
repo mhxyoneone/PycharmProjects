@@ -16,4 +16,5 @@ class JavbudSpiderItem(scrapy.Item):
     movie_actor = scrapy.Field()
     movie_span = scrapy.Field()
     movie_pic = scrapy.Field()
-    #movie_torrent = scrapy.Field()
+    movie_torrent = scrapy.Field()
+    movie_pid_url = scrapy.Field()
