@@ -20,6 +20,7 @@ class TaonanSpiderSpider(RedisCrawlSpider):
         for i in range(len(user_url)):
             items['user_url'] = 'http://www.taonanw.com'+ str(user_url[i])
             yield scrapy.Request(url=items['user_url'],callback=self.parse_second)
+        print("爬取完成")
 
     def parse_second(self,response):
         items = TaonanItem()

@@ -1,0 +1,104 @@
+2018-02-12 16:30:28 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: javbud_spider)
+2018-02-12 16:30:28 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'javbud_spider', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.5, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'javbud_spider.spiders', 'SPIDER_MODULES': ['javbud_spider.spiders']}
+2018-02-12 16:30:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-02-12 16:30:28 [jav_bus] INFO: Reading start URLs from redis key 'jav:start_url' (batch size: 16, encoding: utf-8
+2018-02-12 16:30:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-12 16:30:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'javbud_spider.middlewares.JavbudSpiderSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-12 16:30:28 [scrapy.middleware] INFO: Enabled item pipelines:
+['javbud_spider.pipelines.JavbudSpiderPipeline']
+2018-02-12 16:30:28 [scrapy.core.engine] INFO: Spider opened
+2018-02-12 16:30:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-12 16:30:28 [jav_bus] INFO: Spider opened: jav_bus
+2018-02-12 16:30:45 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-02-12 16:30:45 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-02-12 16:30:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2018, 2, 12, 8, 30, 45, 522539),
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2018, 2, 12, 8, 30, 28, 516652)}
+2018-02-12 16:30:45 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2018-02-12 16:31:50 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: javbud_spider)
+2018-02-12 16:31:50 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'javbud_spider', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.5, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'javbud_spider.spiders', 'SPIDER_MODULES': ['javbud_spider.spiders']}
+2018-02-12 16:31:50 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-02-12 16:31:50 [jav_bus] INFO: Reading start URLs from redis key 'jav:start_url' (batch size: 16, encoding: utf-8
+2018-02-12 16:31:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-12 16:31:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'javbud_spider.middlewares.JavbudSpiderSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-12 16:31:50 [scrapy.middleware] INFO: Enabled item pipelines:
+['javbud_spider.pipelines.JavbudSpiderPipeline']
+2018-02-12 16:31:50 [scrapy.core.engine] INFO: Spider opened
+2018-02-12 16:31:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-12 16:31:51 [jav_bus] INFO: Spider opened: jav_bus
+2018-02-12 16:32:51 [scrapy.extensions.logstats] INFO: Crawled 8 pages (at 8 pages/min), scraped 0 items (at 0 items/min)
+2018-02-12 16:32:58 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-02-12 16:32:58 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-02-12 16:32:58 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-02-12 19:04:33 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: javbud_spider)
+2018-02-12 19:04:33 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'javbud_spider', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.5, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'javbud_spider.spiders', 'SPIDER_MODULES': ['javbud_spider.spiders']}
+2018-02-12 19:04:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-02-12 19:04:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-12 19:04:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'javbud_spider.middlewares.JavbudSpiderSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-12 19:04:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['javbud_spider.pipelines.JavbudSpiderPipeline']
+2018-02-12 19:04:33 [scrapy.core.engine] INFO: Spider opened
+2018-02-12 19:04:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-12 19:04:33 [jav_1] INFO: Spider opened: jav_1
+2018-02-12 19:04:43 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-02-12 19:04:43 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-02-12 19:04:43 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
