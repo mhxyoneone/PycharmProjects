@@ -2,13 +2,9 @@ from bs4 import BeautifulSoup
 import lxml
 import requests
 import re
-#url = "https://www.javbus.info/SCOP-490"
-url = 'https://www.javbus.info/ajax/uncledatoolsbyajax.php?gid=36475634312&lang=zh&img=https://pics.javcdn.pw/cover/6dx6_b.jpg&uc=0&floor=153'
-#url = "https://www.javbus.info/ajax/uncledatoolsbyajax.php?gid=36232306927&lang=zh&img=https://pics.javcdn.pw/cover/6dx6_b.jpg&uc=0&floor=153"
-#url = "https://www.javbus.info/ajax/uncledatoolsbyajax.php?gid=36417994212&lang=zh&img=https://pics.javcdn.pw/cover/6f58_b.jpg&uc=0&floor=280"
-        #https://www.javbus.info/ajax/uncledatoolsbyajax.php?gid=36476218487&lang=zh&img=https://pics.javcdn.pw/cover/6dx6_b.jpg&uc=0&floor=153
+
 header ={
-    'authority':'www.javbus.info',
+    'authority':'####',
     'method':'GET',
     'path':'/ajax/uncledatoolsbyajax.php?gid=36417994212&lang=zh&img=https://pics.javcdn.pw/cover/6f58_b.jpg&uc=0&floor=280',
     'scheme':'https',

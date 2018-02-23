@@ -10,7 +10,7 @@ import requests
 class JavBusSpider(CrawlSpider):
     name = 'jav_bus'
     allowed_domains = ['javbus.info']
-    start_urls = ['https://www.javbus.info']
+    start_urls = ['##############']
     #redis_key = "jav:start_url"
 
     rules = (
@@ -19,7 +19,7 @@ class JavBusSpider(CrawlSpider):
     )
 
     headers = {
-        'authority': 'www.javbus.info',
+        'authority': '#######',
         'method': 'GET',
         'path': '/ajax/uncledatoolsbyajax.php?gid=36417994212&lang=zh&img=https://pics.javcdn.pw/cover/6f58_b.jpg&uc=0&floor=280',
         'scheme': 'https',
