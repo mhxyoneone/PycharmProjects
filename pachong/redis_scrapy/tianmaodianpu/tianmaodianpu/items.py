@@ -8,8 +8,10 @@
 import scrapy
 
 
-class DouyushipinItem(scrapy.Item):
+class TianmaodianpuItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    hot = scrapy.Field()
-    title = scrapy.Field()
+    price = scrapy.Field()
+    name = scrapy.Field()
+    pic = scrapy.Field()
+

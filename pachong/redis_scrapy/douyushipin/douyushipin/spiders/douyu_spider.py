@@ -37,6 +37,7 @@ class DouyuSpiderSpider(scrapy.Spider):
             #print(url)
     def parse_two(self,response):
         items = DouyushipinItem()
-        items['hot'] = response.xpath('//div[@class="headline clearfix"]/h2/text()').extract()
+        items['title'] = response.xpath('//div[@class="headline clearfix"]/h2/text()').extract()
+        items['hot'] = response.xpath('//div[@class="hot-v-con"]/span').extract()
         yield items
 
